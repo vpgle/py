@@ -1,0 +1,22 @@
+# coding=gb18030
+
+
+cars = ['bmw',
+        'audi',
+        'toyota',
+        'subaru']
+
+print("Here is the original list:")
+print(cars)
+
+print("=\nHere is the sorted list:")
+print(sorted(cars))
+
+print("\nHere is the orignial list again:")
+print(cars)
+
+print("≈§œÚ¡Ÿ ±≈≈–Ú£∫")
+print("=\nHere is the sorted list:")
+new_sort = sorted(cars,reverse=True)
+print(new_sort)
+print(sorted(cars,reverse=True))

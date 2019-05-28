@@ -1,0 +1,13 @@
+# -*- coding:gb18030 -*-
+# 6-1
+shimaomin = {
+    'first_name': 'maomin',
+    'last_name': 'shi',
+    'age': 30,
+    'city': 'china',
+    }
+
+print("Ãû£º " + shimaomin['first_name'])
+print("ĞÕ£º " + shimaomin['last_name'])
+print("ÄêÁä£º " + str(shimaomin['age']))
+print("ÔÚÄÄ£º " + shimaomin['city'])

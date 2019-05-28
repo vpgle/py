@@ -1,0 +1,13 @@
+# coding=gb18030
+
+pizzas = ['¼¦ÈâÄ¢¹½ÅûÈø',
+          'ÌïÔ°Êß²ËÅûÈø',
+          'Ïã¹½»ğÍÈÅûÈø']
+
+for pizza in pizzas:
+    print("I like " + pizza)
+
+for pizza in pizzas:
+    print("    " + pizza + "ºÃ³Ô¼«ÁË£¡")
+    
+print("I really love pizza!")
