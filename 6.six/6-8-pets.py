@@ -16,11 +16,9 @@ pet_thr = {
     'master': 'Reagan',
     }
 
-print(type(pet_one))
-pets = ['pet_one', 'pet_two', 'pet_thr']
+#pets = [pet_one, pet_two, pet_thr]
+pets = [pet_one]
 for pet in pets:
-    print("\t" + pet)
-    print(type(pet))
-    for pet_info in pet.items():
-        print("我是" + pet_info['pet'] + "科")
-        print("\n主人是" + pet_into['master']  + '! ')
+    for peta, master in pet.items():
+        print("\n我是" + peta + "科")
+        print("主人是" + master  + '! ')
