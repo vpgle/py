@@ -17,13 +17,9 @@ pet_thr = {
     }
 
 pets = [pet_one, pet_two, pet_thr]
-# for pet in pet_one.keys():
-    # print(pet.title() + " is " + pet_one[pet])
-    #print(pet_one[pet].title())
-#pets = [pet_one]
+
 for pet in pets:
-#    print(type(pet))
     print()
     for peta, master in pet.items():
         print(peta + " is " + master)
-#        print(pet[peta])
+
