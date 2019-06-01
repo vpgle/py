@@ -19,5 +19,5 @@ for name, num in likenum.items():
     for number in num:
         print("\t" + str(number))
 
-for name, num in likenum.items():
-    print(name + " like " + str(num))
+# for name, num in likenum.items():
+    # print(name + " like " + str(num))
