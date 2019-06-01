@@ -1,5 +1,6 @@
 # -*- coding:gb18030 -*-
 
+print("在字典存储字典")
 cities = {
     'beijing' : {
         'country': 'china',
@@ -27,7 +28,7 @@ cities = {
 
 for city, user_info in cities.items():
     print("city is " + city)
-    print(type(user_info))           #  user_info 是字典类型
+#    print(type(user_info))           #  user_info 是字典类型
     for key, value in user_info.items():
-        print(type(value))
+#        print(type(value))
         print("\t" + key + " is " + str(value))

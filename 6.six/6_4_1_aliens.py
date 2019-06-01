@@ -16,6 +16,8 @@ aliens = [alien_0, alien_1, alien_2]
 
 for alien in aliens:
     print(alien)
+    
+
 
 # 创建一个用于存储外星人的空列表
 aliens = []
