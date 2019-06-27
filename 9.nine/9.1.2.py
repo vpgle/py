@@ -17,6 +17,7 @@ import dog
         # """模拟小狗被命令时打滚"""
         # print(self.name.title() + " rolled over!")
 
+print("访问属性")
 my_dog = dog.Dog('willie', 6)
 
 print("My dog's name is " + my_dog.name.title() + ".")
